@@ -1,5 +1,9 @@
-contador-de-caracteres
-======================
+# Contador de Caracteres
+========================
 
-Plugin baseaado no juery pr contgem de cracteres do inpur que foi chamado
+Plugin baseado no juery pr contgem de cracteres do inpur que foi chamado
+
+Adicione o plugin na página e coloque no input passado
+
+**$(<input>).counter()**
 
