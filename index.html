@@ -1,0 +1,26 @@
+<html>
+<head>
+    <title>Contador</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <form>
+      <textarea name="" placeholder="Insira sua resposta..." id="resposta"></textarea>
+    </form>
+    
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <script src="jquery.counter.caracter.js"></script>
+    <script>
+
+        $(function () {
+            $('#resposta').counter({
+                limite     : 15,
+                txtContador: "Pode digitar Até: ",
+                txtLimite  : "0",
+                posicao    : "down"
+            });
+        })
+    </script>
+    
+</body>
+</html>
